@@ -2,10 +2,6 @@ for(var i=0;i<document.querySelectorAll(".drum").length;i++)
 {
     document.querySelectorAll(".drum")[i].addEventListener("click",handleClick);
 }
-
-
-
-
 function handleClick()
 {
     sound=this.innerHTML;
@@ -13,26 +9,14 @@ function handleClick()
     buttonAnimation(sound);
 }
 
-
-
-
-
 document.addEventListener("keypress",handleKeyPress);
 
 function handleKeyPress(e){
 makeSound(e.key);
 buttonAnimation(e.key);
 }
-
-
-
-
-
-
 function makeSound(sound)
 {
-
-
     switch (sound) {
         case "w":
             var tom1 = new Audio("sounds/tom-1.mp3");
