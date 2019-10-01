@@ -5,7 +5,7 @@ Play drums online on a virtual drum set. You can play the live virtual drums in 
 
 ## Game Play
 
-![](https://github.com/AdityaRajSingh/Simon-Game/blob/master/Play-Drums-SS.png)
+![](https://github.com/AdityaRajSingh/Play-Drums/blob/master/Play-Drums-SS.png)
 
 
 
